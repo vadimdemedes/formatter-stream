@@ -34,6 +34,8 @@ stream.end();
 
 ### Tests
 
+[![Circle CI](https://circleci.com/gh/vdemedes/formatter-stream.svg?style=svg)](https://circleci.com/gh/vdemedes/formatter-stream)
+
 ```
 $ npm test
 ```
