@@ -1,0 +1,31 @@
+{
+  "name": "formatter-stream",
+  "version": "1.0.0",
+  "description": "Stream that transforms objects into strings using pre-defined format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vdemedes/formatter-stream.git"
+  },
+  "keywords": [
+    "stream",
+    "logs"
+  ],
+  "author": "Vadim Demedes <vdemedes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdemedes/formatter-stream/issues"
+  },
+  "homepage": "https://github.com/vdemedes/formatter-stream",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "json-stringify-safe": "^5.0.0",
+    "readable-stream": "^1.0.33"
+  }
+}
