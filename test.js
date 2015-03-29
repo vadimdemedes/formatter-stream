@@ -3,7 +3,6 @@
  */
 
 var FormatStream = require('./');
-var destroy = require('destroy');
 
 require('chai').should();
 
